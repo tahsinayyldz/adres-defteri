@@ -1,0 +1,37 @@
+.filter-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  width: 60% !important;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  min-width: 400px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #5294f7;
+  border-radius: 25px;
+  transition: all 0.2s ease;
+  box-shadow: 6px 11px 25px 0px rgba(0, 0, 0, 0.521);
+}
+
+.filter:hover {
+  background-color: #0b51b9;
+  box-shadow: 6px 11px 25px 0px rgba(0, 0, 0, 0.521);
+  transform: translateY(5px);
+}
+
+
+.filter_search{
+  width: 350px !important;
+}
+
+.filter_select{
+  width: 120px !important;
+}

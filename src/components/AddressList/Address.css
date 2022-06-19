@@ -1,0 +1,110 @@
+.address_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.address_card {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #5294f7;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  width: 20%;
+  transition: all 0.2s ease;
+  box-shadow: 6px 11px 25px 0px rgba(0, 0, 0, 0.521);
+}
+
+.address_card:hover {
+  background-color: #0b51b9;
+  box-shadow: 6px 11px 25px 0px rgba(0, 0, 0, 0.521);
+  transform: translateY(5px);
+}
+
+.address_card_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.address_card_title {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.address_card_text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.address_card_row_a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.address_card_row_b {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.address_edit_btn {
+  border-radius: 50%;
+  background-color: #48abe0;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.address_edit_btn:active {
+  background-color: #48abe0;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+
+.address_edit_delete {
+  border-radius: 50%;
+  background-color: #e04848;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  box-shadow: 0 2px 4px rgb(121, 0, 0);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.address_edit_delete:active {
+  background-color: rgb(211, 5, 5);
+  box-shadow: 0 0 2px rgb(129, 3, 3);
+  transform: translateY(2px);
+}
+
+.address_card_image_div {
+  display: flex;
+  justify-content: center;
+}
+
+.address_card_image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
